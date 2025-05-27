@@ -1,12 +1,12 @@
-````markdown
+
 # 🧠 NeuroNudge
 
 **Your daily dose of micro-motivation, wrapped in beautiful UI.**  
-Neuronudge is a visually rich Flutter app that delivers neuroscience-inspired nudges to boost your focus, habits, and emotional well-being — one elegant swipe at a time.
+Neuronudge is a beautifully crafted Flutter app that delivers neuroscience-inspired nudges to help you boost your focus, emotional balance, and daily habits — one elegant swipe at a time.
 
 ---
 
-## 🔖 Badges
+## 📊 Badges
 
 <p align="center">
   <a href="https://github.com/greyscriptdg/neuronudge/stargazers"><img src="https://img.shields.io/github/stars/greyscriptdg/neuronudge?style=for-the-badge&color=purple" alt="Stars"></a>
@@ -20,56 +20,57 @@ Neuronudge is a visually rich Flutter app that delivers neuroscience-inspired nu
 
 ## ✨ Features
 
-- 🎴 **Swipeable Nudge Cards** – Flip through daily mental wellness nudges
-- 🌁 **Glassmorphic Gradient UI** – Modern visual style with shadows and softness
-- 🌗 **Ambient Mode Switch (coming soon)** – Day & Night auto visual themes
-- 😌 **Mood Selector (planned)** – Emoji-based emotion tracking
-- 📊 **Streak & Journal Log (planned)** – Build self-awareness with a private journal
-- 🧩 **Clean Modular Architecture** – Easy to scale or customize
+- 🎴 **Swipeable Nudge Cards** – Flip through daily micro-motivational prompts
+- 🌁 **Glassmorphic Gradient UI** – Sleek modern visuals with soft blur and shadow
+- 🌗 **Ambient Theme Switch (Coming Soon)** – Auto Day/Night transitions
+- 😌 **Mood Selector (Planned)** – Emoji-based emotion tracking
+- 📊 **Streak & Journal Log (Planned)** – Reflect and track your mental flow
+- ⚙️ **Clean Modular Architecture** – Easy to extend, theme, and customize
 
 ---
 
-## 📂 Project Structure
+## 🗂 Project Structure
 
-<pre>
+```txt
 neuronudge/
 ├── lib/
-│   ├── <b>main.dart</b>                # App entry point
-│   ├── <b>screens/</b>                 # UI pages (Home, Mood, Journal)
-│   │   └── home_screen.dart
-│   ├── <b>widgets/</b>                 # Reusable UI components
-│   │   └── nudge_card.dart
-│   ├── <b>themes/</b>                  # Theme files and light/dark config
-│   │   └── app_theme.dart
-│   ├── <b>models/</b>                  # Data models
-│   │   └── nudge_model.dart
-│   └── <b>utils/</b>                   # Constants and helpers
-│       └── constants.dart
-├── <b>assets/</b>                      # Fonts, icons, and media
+│   ├── main.dart                # App entry point
+│   ├── screens/
+│   │   └── home_screen.dart     # Home screen
+│   ├── widgets/
+│   │   └── nudge_card.dart      # Custom card UI
+│   ├── themes/
+│   │   └── app_theme.dart       # Theme settings
+│   ├── models/
+│   │   └── nudge_model.dart     # Data model
+│   └── utils/
+│       └── constants.dart       # App constants
+├── assets/
 │   ├── images/
 │   └── icons/
-├── pubspec.yaml                        # Dependencies & asset linking
-├── README.md                           # You’re reading it
-└── LICENSE                             # MIT License
-</pre>
+├── pubspec.yaml                 # Flutter dependencies
+├── README.md                    # Project documentation
+└── LICENSE                      # MIT license
+````
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the repo**
+### 1. Clone the repo
+
 ```bash
 git clone https://github.com/greyscriptdg/neuronudge.git
 cd neuronudge
-````
+```
 
-2. **Install dependencies**
+### 2. Install dependencies
 
 ```bash
 flutter pub get
 ```
 
-3. **Run the app**
+### 3. Run the app
 
 ```bash
 flutter run
@@ -77,21 +78,25 @@ flutter run
 
 ---
 
-## 🧠 Idea Behind It
+## 💡 Why NeuroNudge?
 
-Neuronudge is built for creators, thinkers, students, and professionals who want a **gentle reminder** to pause, reflect, or reset — in under 60 seconds a day. It pairs neuroscience-backed nudges with mood-friendly visuals to support small but impactful daily actions.
+Neuronudge is designed to be the **gentlest app on your phone**. One swipe. One spark of insight. One small nudge toward a better day.
+
+It's not about being productive — it's about being intentional.
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome! Got a better animation idea, mood tracker, or card style? Feel free to fork and contribute.
+Pull requests are welcome!
+If you have ideas for new animations, nudge logic, or features — feel free to open an issue or PR.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
+Released under the **MIT License**.
+See [`LICENSE`](LICENSE) for more details.
 
 ---
 
